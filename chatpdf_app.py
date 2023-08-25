@@ -9,7 +9,7 @@ import pyperclip
 st.title("Document Reading App like ChatGPT") 
 
 
-openai.api_key = "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"
+openai.api_key = ""
 st.sidebar.title("Please enter your OpenAI API Key")
 openai.api_key = st.sidebar.text_input("API Key", type="password")
 
